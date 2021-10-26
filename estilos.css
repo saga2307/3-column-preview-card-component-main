@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+section{
+    display: flex;
+    margin: 3% 20%;
+    width: 60%;
+    height: 450px;
+}
+
+section h1{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 15%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 35px;
+    
+}
+
+
+section p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 15%;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedans{
+    width: 33.33%;
+    height: 100%;
+    padding: 40px;
+    align-items: center;
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.sedans .boton{
+    color:hsl(31, 77%, 52%); ;
+}
+
+.suvs{
+    width: 33.33%;
+    height: 100%;
+    padding: 40px;
+    align-items: center;
+    background: hsl(184, 100%, 22%);
+}
+
+.suvs .boton{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    width: 33.33%;
+    height: 100%;
+    padding: 40px;
+    align-items: center;
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.luxury .boton{
+    color: hsl(179, 100%, 13%);
+}
+
+.boton{
+    background: white;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+}
+
+.boton:hover{
+    background: transparent;
+    color: white;
+}
+
+.atribucion{
+    padding-top: 10px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.atribucion a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width : 375px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    section{
+        margin: 8% 5%;
+        display: block;
+        width: 90%;
+    } 
+
+    .sedans{
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        align-items: center;
+        background: hsl(31, 77%, 52%);
+        border-top-left-radius: 2%;
+        border-top-right-radius: 2%;
+        border-bottom-left-radius:0% ;
+    }
+
+    .suvs{
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        align-items: center;
+        background: hsl(184, 100%, 22%);
+    }
+
+    .luxury{
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        align-items: center;
+        background: hsl(179, 100%, 13%);
+        border-bottom-left-radius: 2%;
+        border-bottom-right-radius: 2%;
+        border-top-right-radius: 0%;
+    }
+
+    .atribucion{
+        position: relative;
+        top: 880px;
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .atribucion a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+   }
